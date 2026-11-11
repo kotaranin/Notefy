@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.uncomplicate/clojure-sound:0.4.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/uncomplicate/clojure-sound/0.4.0-SNAPSHOT/clojure-sound-0.4.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
