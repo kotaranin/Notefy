@@ -1,2 +1,3 @@
 (ns notefy.audio
-  (:require [uncomplicate.clojure-sound.core :as sound]))
+  (:require [clojure.java.io :as io]
+            [uncomplicate.clojure-sound.sampled :as sound]))
