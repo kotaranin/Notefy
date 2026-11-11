@@ -35,5 +35,5 @@
 (fact "445 Hz is X cents sharp of 440 Hz."
       (pitch/cents-off 445) => 19.56)
 
-(fact "Frequency sequence [440.0 445.0 261.63] is maps to [{:note \"A4\" :cents 0.0} {:note \"A4\" :cents 19.56} {:note \"C4\" :cents 0.0}]"
+(fact "Frequency sequence [440.0 445.0 261.63] maps to [{:note \"A4\" :cents 0.0} {:note \"A4\" :cents 19.56} {:note \"C4\" :cents 0.0}]"
       (pitch/transcribe-sequence [440.0 445.0 261.63] :sharp) => [{:note "A4", :cents 0.0} {:note "A4", :cents 19.56} {:note "C4", :cents 0.0}])
